@@ -9,3 +9,4 @@ Projects used:
 
 * [Procedural Tree](https://www.assetstore.unity3d.com/en/#!/content/32907)  by [Wasabimole](http://wasabimole.com/)
 * [LoadingScreenManager](https://gist.github.com/Democide/beba5fd2603b268a8f72)
+* [Gun Models](https://www.assetstore.unity3d.com/en/#!/content/56350)
