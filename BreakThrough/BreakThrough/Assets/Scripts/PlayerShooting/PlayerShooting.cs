@@ -65,6 +65,9 @@ public class PlayerShooting : MonoBehaviour {
             // We hit something
             //Debug.Log("We hit "+_hit.collider.name);
             gfx.PlayHitEffect(_hit.point, _hit.normal);
+            if (_hit.collider.gameObject.tag == "Enemy") {
+                _hit.collider.gameObject.GetComponent<EnemyProps>().takeDamage(weapon.damage);
+            }
         }
     }
 }

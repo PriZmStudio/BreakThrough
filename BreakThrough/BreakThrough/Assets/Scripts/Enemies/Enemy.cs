@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable]
 public class Enemy {
-    string name;
-    float speed;
-    float health;
+    public string name;
+    public float speed;
+    public float health;
 }
