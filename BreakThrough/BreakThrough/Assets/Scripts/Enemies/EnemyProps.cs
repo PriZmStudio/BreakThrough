@@ -20,6 +20,7 @@ public class EnemyProps : MonoBehaviour {
         currentHealth = enemy.health;
 
         navComponent = gameObject.GetComponent<NavMeshAgent>();
+        navComponent.speed = enemy.speed;
 	}
 	
 	// Update is called once per frame
